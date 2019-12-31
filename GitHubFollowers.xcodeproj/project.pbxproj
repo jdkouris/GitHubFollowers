@@ -15,6 +15,8 @@
 		291F1F4123B81AAF00690CA8 /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291F1F4023B81AAF00690CA8 /* FavoritesListVC.swift */; };
 		291F1F4323B81EAF00690CA8 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291F1F4223B81EAF00690CA8 /* GFButton.swift */; };
 		291F1F4523B8215800690CA8 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291F1F4423B8215800690CA8 /* GFTextField.swift */; };
+		291F1F4723BC0DAA00690CA8 /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291F1F4623BC0DAA00690CA8 /* FollowerListVC.swift */; };
+		291F1F4923BC111E00690CA8 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291F1F4823BC111E00690CA8 /* String+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		291F1F4023B81AAF00690CA8 /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
 		291F1F4223B81EAF00690CA8 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		291F1F4423B8215800690CA8 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
+		291F1F4623BC0DAA00690CA8 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
+		291F1F4823BC111E00690CA8 /* String+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +71,10 @@
 				291F1F3823B815BF00690CA8 /* Info.plist */,
 				291F1F3E23B81A8300690CA8 /* SearchVC.swift */,
 				291F1F4023B81AAF00690CA8 /* FavoritesListVC.swift */,
+				291F1F4623BC0DAA00690CA8 /* FollowerListVC.swift */,
 				291F1F4223B81EAF00690CA8 /* GFButton.swift */,
 				291F1F4423B8215800690CA8 /* GFTextField.swift */,
+				291F1F4823BC111E00690CA8 /* String+Ext.swift */,
 			);
 			path = GitHubFollowers;
 			sourceTree = "<group>";
@@ -147,7 +153,9 @@
 				291F1F4123B81AAF00690CA8 /* FavoritesListVC.swift in Sources */,
 				291F1F4323B81EAF00690CA8 /* GFButton.swift in Sources */,
 				291F1F3F23B81A8300690CA8 /* SearchVC.swift in Sources */,
+				291F1F4723BC0DAA00690CA8 /* FollowerListVC.swift in Sources */,
 				291F1F2B23B815BE00690CA8 /* AppDelegate.swift in Sources */,
+				291F1F4923BC111E00690CA8 /* String+Ext.swift in Sources */,
 				291F1F2D23B815BE00690CA8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
