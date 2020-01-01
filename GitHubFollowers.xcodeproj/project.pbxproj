@@ -72,23 +72,55 @@
 		291F1F2923B815BE00690CA8 /* GitHubFollowers */ = {
 			isa = PBXGroup;
 			children = (
-				291F1F2A23B815BE00690CA8 /* AppDelegate.swift */,
-				291F1F2C23B815BE00690CA8 /* SceneDelegate.swift */,
-				291F1F4823BC111E00690CA8 /* String+Ext.swift */,
-				291F1F5023BC1D8E00690CA8 /* UIViewController+Ext.swift */,
-				291F1F3323B815BF00690CA8 /* Assets.xcassets */,
-				291F1F3523B815BF00690CA8 /* LaunchScreen.storyboard */,
+				295AD02023BC23B6000056A0 /* Support */,
+				295AD01F23BC23AA000056A0 /* Extensions */,
+				295AD01E23BC2397000056A0 /* Custom Views */,
+				295AD01D23BC2381000056A0 /* Screens */,
 				291F1F3823B815BF00690CA8 /* Info.plist */,
+			);
+			path = GitHubFollowers;
+			sourceTree = "<group>";
+		};
+		295AD01D23BC2381000056A0 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
 				291F1F3E23B81A8300690CA8 /* SearchVC.swift */,
 				291F1F4023B81AAF00690CA8 /* FavoritesListVC.swift */,
 				291F1F4623BC0DAA00690CA8 /* FollowerListVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		295AD01E23BC2397000056A0 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
 				291F1F4E23BC183400690CA8 /* GFAlertVC.swift */,
 				291F1F4223B81EAF00690CA8 /* GFButton.swift */,
 				291F1F4423B8215800690CA8 /* GFTextField.swift */,
 				291F1F4A23BC162500690CA8 /* GFTitleLabel.swift */,
 				291F1F4C23BC177D00690CA8 /* GFBodyLabel.swift */,
 			);
-			path = GitHubFollowers;
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		295AD01F23BC23AA000056A0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				291F1F4823BC111E00690CA8 /* String+Ext.swift */,
+				291F1F5023BC1D8E00690CA8 /* UIViewController+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		295AD02023BC23B6000056A0 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				291F1F2A23B815BE00690CA8 /* AppDelegate.swift */,
+				291F1F2C23B815BE00690CA8 /* SceneDelegate.swift */,
+				291F1F3323B815BF00690CA8 /* Assets.xcassets */,
+				291F1F3523B815BF00690CA8 /* LaunchScreen.storyboard */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
