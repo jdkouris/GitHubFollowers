@@ -1,8 +1,8 @@
 //
-//  ErrorMessage.swift
+//  GFError.swift
 //  GitHubFollowers
 //
-//  Created by John Kouris on 1/4/20.
+//  Created by John Kouris on 1/13/20.
 //  Copyright © 2020 John Kouris. All rights reserved.
 //
 
