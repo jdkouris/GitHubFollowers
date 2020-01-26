@@ -30,6 +30,8 @@
 		CC58FEC823DA56D0002747E0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC58FEC723DA56D0002747E0 /* Constants.swift */; };
 		CC58FECA23DA5F0A002747E0 /* GFItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC58FEC923DA5F0A002747E0 /* GFItemInfoView.swift */; };
 		CC58FECC23DDE498002747E0 /* GFItemInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC58FECB23DDE498002747E0 /* GFItemInfoVC.swift */; };
+		CC58FECE23DDE724002747E0 /* GFRepoItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC58FECD23DDE724002747E0 /* GFRepoItemVC.swift */; };
+		CC58FED023DDE8B5002747E0 /* GFFollowerItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC58FECF23DDE8B5002747E0 /* GFFollowerItemVC.swift */; };
 		CC76A81B23C019960094C2C9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC76A81A23C019960094C2C9 /* NetworkManager.swift */; };
 		CC76A82123C1707C0094C2C9 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC76A82023C1707C0094C2C9 /* FollowerCell.swift */; };
 		CC76A82323C170F00094C2C9 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC76A82223C170F00094C2C9 /* GFAvatarImageView.swift */; };
@@ -63,6 +65,8 @@
 		CC58FEC723DA56D0002747E0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		CC58FEC923DA5F0A002747E0 /* GFItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoView.swift; sourceTree = "<group>"; };
 		CC58FECB23DDE498002747E0 /* GFItemInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoVC.swift; sourceTree = "<group>"; };
+		CC58FECD23DDE724002747E0 /* GFRepoItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFRepoItemVC.swift; sourceTree = "<group>"; };
+		CC58FECF23DDE8B5002747E0 /* GFFollowerItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFFollowerItemVC.swift; sourceTree = "<group>"; };
 		CC76A81A23C019960094C2C9 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		CC76A82023C1707C0094C2C9 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		CC76A82223C170F00094C2C9 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
@@ -166,6 +170,16 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		CC58FED123DDE905002747E0 /* ItemInfoVCs */ = {
+			isa = PBXGroup;
+			children = (
+				CC58FECB23DDE498002747E0 /* GFItemInfoVC.swift */,
+				CC58FECD23DDE724002747E0 /* GFRepoItemVC.swift */,
+				CC58FECF23DDE8B5002747E0 /* GFFollowerItemVC.swift */,
+			);
+			path = ItemInfoVCs;
+			sourceTree = "<group>";
+		};
 		CC76A81923C019800094C2C9 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
@@ -228,9 +242,9 @@
 		CC96C9E623C8EACA00C35BCA /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				CC58FED123DDE905002747E0 /* ItemInfoVCs */,
 				291F1F4E23BC183400690CA8 /* GFAlertVC.swift */,
 				CC58FEC323DA5062002747E0 /* GFUserInfoHeaderVC.swift */,
-				CC58FECB23DDE498002747E0 /* GFItemInfoVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -327,6 +341,7 @@
 				291F1F4723BC0DAA00690CA8 /* FollowerListVC.swift in Sources */,
 				295AD02523BC2509000056A0 /* User.swift in Sources */,
 				CC76A82123C1707C0094C2C9 /* FollowerCell.swift in Sources */,
+				CC58FECE23DDE724002747E0 /* GFRepoItemVC.swift in Sources */,
 				CC76A82323C170F00094C2C9 /* GFAvatarImageView.swift in Sources */,
 				291F1F4F23BC183400690CA8 /* GFAlertVC.swift in Sources */,
 				CC18FC4823CCD1A100F77256 /* UserInfoVC.swift in Sources */,
@@ -334,6 +349,7 @@
 				291F1F2B23B815BE00690CA8 /* AppDelegate.swift in Sources */,
 				291F1F4B23BC162500690CA8 /* GFTitleLabel.swift in Sources */,
 				CC58FECC23DDE498002747E0 /* GFItemInfoVC.swift in Sources */,
+				CC58FED023DDE8B5002747E0 /* GFFollowerItemVC.swift in Sources */,
 				291F1F4923BC111E00690CA8 /* String+Ext.swift in Sources */,
 				CC76A82A23C403A40094C2C9 /* UIHelper.swift in Sources */,
 				CC76A81B23C019960094C2C9 /* NetworkManager.swift in Sources */,
