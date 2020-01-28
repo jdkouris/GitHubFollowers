@@ -38,6 +38,7 @@
 		CC76A82A23C403A40094C2C9 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC76A82923C403A40094C2C9 /* UIHelper.swift */; };
 		CC96C9E923C8EB0700C35BCA /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96C9E823C8EB0700C35BCA /* GFEmptyStateView.swift */; };
 		CCBF325C23DDEDA8004113FD /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBF325B23DDEDA8004113FD /* Date+Ext.swift */; };
+		CCBF325E23E0A466004113FD /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBF325D23E0A466004113FD /* PersistenceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		CC76A82923C403A40094C2C9 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		CC96C9E823C8EB0700C35BCA /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
 		CCBF325B23DDEDA8004113FD /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		CCBF325D23E0A466004113FD /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				CC76A81A23C019960094C2C9 /* NetworkManager.swift */,
+				CCBF325D23E0A466004113FD /* PersistenceManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -353,6 +356,7 @@
 				291F1F4B23BC162500690CA8 /* GFTitleLabel.swift in Sources */,
 				CC58FECC23DDE498002747E0 /* GFItemInfoVC.swift in Sources */,
 				CC58FED023DDE8B5002747E0 /* GFFollowerItemVC.swift in Sources */,
+				CCBF325E23E0A466004113FD /* PersistenceManager.swift in Sources */,
 				291F1F4923BC111E00690CA8 /* String+Ext.swift in Sources */,
 				CC76A82A23C403A40094C2C9 /* UIHelper.swift in Sources */,
 				CCBF325C23DDEDA8004113FD /* Date+Ext.swift in Sources */,
