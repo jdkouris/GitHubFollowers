@@ -43,6 +43,7 @@
 		CCBF325E23E0A466004113FD /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBF325D23E0A466004113FD /* PersistenceManager.swift */; };
 		CCBF326023E0AD0A004113FD /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBF325F23E0AD0A004113FD /* FavoriteCell.swift */; };
 		CCE2340B2422841400C3DA7B /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE2340A2422841400C3DA7B /* UIView+Ext.swift */; };
+		CCE2340D242291CF00C3DA7B /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE2340C242291CF00C3DA7B /* UITableView+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +85,7 @@
 		CCBF325D23E0A466004113FD /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 		CCBF325F23E0AD0A004113FD /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 		CCE2340A2422841400C3DA7B /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		CCE2340C242291CF00C3DA7B /* UITableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 				291F1F5023BC1D8E00690CA8 /* UIViewController+Ext.swift */,
 				CCBF325B23DDEDA8004113FD /* Date+Ext.swift */,
 				CCE2340A2422841400C3DA7B /* UIView+Ext.swift */,
+				CCE2340C242291CF00C3DA7B /* UITableView+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -387,6 +390,7 @@
 				CC76A81B23C019960094C2C9 /* NetworkManager.swift in Sources */,
 				291F1F2D23B815BE00690CA8 /* SceneDelegate.swift in Sources */,
 				CC58FECA23DA5F0A002747E0 /* GFItemInfoView.swift in Sources */,
+				CCE2340D242291CF00C3DA7B /* UITableView+Ext.swift in Sources */,
 				291F1F4D23BC177D00690CA8 /* GFBodyLabel.swift in Sources */,
 				CC58FEC823DA56D0002747E0 /* Constants.swift in Sources */,
 			);
